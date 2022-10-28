@@ -1,0 +1,348 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Kumbh+Sans:wght@400;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Roboto+Condensed:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap");
+
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+img {
+  width: 100%; }
+
+body {
+  background-color:white;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.barraPrevia{
+  background-color:  rgb(17, 6, 28);
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-align: center;
+  padding: 0.5rem;
+}
+.navbar{
+  border-bottom: 1px solid rgb(194, 184, 184);
+  background-color: white;
+}
+
+.navLogo{
+  padding: 0 24px;
+}
+.tituloMarca{
+  font-size: 1.8rem;
+  text-align: right;
+}
+.logoImg{
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.navbarItems{
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  justify-content: space-around;
+  width: 600px;
+  margin-bottom: 0 !important;
+  list-style: none;
+
+}
+.navbarLink{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  }
+.navbarLink:hover{
+  border-bottom: 2px solid rgb(17, 6, 28);
+  color: #302b27;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 2rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+.iconoCarrito{
+  margin: 1rem;
+  width: 70px;
+  height: 40px;
+  position: relative;
+}
+#conteoCarrito{
+  background-color: white;
+  width: 15px;
+  height: 12px;
+  border-radius: 16px;
+  position: absolute;
+  color: black;
+  top: 1px;
+  right: 14px;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 700;
+}
+#botonCarrito{
+  background-color:  rgb(17, 6, 28);
+  color: white;
+}
+.cardConteinerDetails{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardImg{
+  height: 100px;
+  width: 110px;
+}
+.cardBody{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main{
+  height: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rejojEstilo{
+  color:rgb(64, 5, 123);
+  font-size: 2.9rem;
+}
+.mainRegistro{
+  background-color: rgb(246, 243, 247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: #777777 1px 2px 4px;
+  margin: auto;
+}
+.imgMain{
+  padding: 2rem;
+  background-image: url(/recursos/registrarse.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 820px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #302b27 2px 2px 4px;
+}
+
+.btnEnlace{
+ font-size: 1.3rem;
+ font-family:lato;
+  background-color: black;
+  color: aliceblue;
+  margin: 1.2rem;
+  padding: 2rem;
+  justify-content: center;
+}
+.containerForm {
+  width: 500px;
+}
+.centrarLoader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lds-default {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-default div {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #fcf;
+  border-radius: 50%;
+  animation: lds-default 1.2s linear infinite;
+}
+.lds-default div:nth-child(1) {
+  animation-delay: 0s;
+  top: 37px;
+  left: 66px;
+}
+.lds-default div:nth-child(2) {
+  animation-delay: -0.1s;
+  top: 22px;
+  left: 62px;
+}
+.lds-default div:nth-child(3) {
+  animation-delay: -0.2s;
+  top: 11px;
+  left: 52px;
+}
+.lds-default div:nth-child(4) {
+  animation-delay: -0.3s;
+  top: 7px;
+  left: 37px;
+}
+.lds-default div:nth-child(5) {
+  animation-delay: -0.4s;
+  top: 11px;
+  left: 22px;
+}
+.lds-default div:nth-child(6) {
+  animation-delay: -0.5s;
+  top: 22px;
+  left: 11px;
+}
+.lds-default div:nth-child(7) {
+  animation-delay: -0.6s;
+  top: 37px;
+  left: 7px;
+}
+.lds-default div:nth-child(8) {
+  animation-delay: -0.7s;
+  top: 52px;
+  left: 11px;
+}
+.lds-default div:nth-child(9) {
+  animation-delay: -0.8s;
+  top: 62px;
+  left: 22px;
+}
+.lds-default div:nth-child(10) {
+  animation-delay: -0.9s;
+  top: 66px;
+  left: 37px;
+}
+.lds-default div:nth-child(11) {
+  animation-delay: -1s;
+  top: 62px;
+  left: 52px;
+}
+.lds-default div:nth-child(12) {
+  animation-delay: -1.1s;
+  top: 52px;
+  left: 62px;
+}
+@keyframes lds-default {
+  0%, 20%, 80%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+.btnTalleres{
+ margin: 2rem;
+padding: 3rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#btnBuscar{
+  border-color:  rgb(17, 6, 28);
+  color:  rgb(17, 6, 28);
+  
+}
+
+#btnBuscar:hover {
+  background-color:  rgb(17, 6, 28);
+  color: white;
+
+}
+
+.btnsRegistrarse {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-primary{
+  background-color: rgb(17, 6, 28);
+  border-color: black;
+  
+}
+
+.btn-primary:hover{
+  background-color: rgb(197, 164, 229);
+  color: white;
+  border-color: white;
+}
+
+.cardsTalleres {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  margin: 2rem auto;
+}
+
+.productoEnCarrito{
+  color: black;
+}
+.parrafoTotal{
+  color:  rgb(17, 6, 28);
+  font-size: 1.2rem;
+  margin-left: 12px;
+  text-transform: uppercase;  
+}
+
+.footer {
+margin-top: 6rem;
+padding-top: 2rem;
+height: 15rem;
+display: flex;
+background-color:  rgb(17, 6, 28);
+color: white;
+font-size: 1.8rem;
+}
+
+.liFooter{
+  font-size: 1.2rem;
+  list-style: none;
+}
+ 
+
+.ofertaExpres{
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 1.6rem;
+  
+}
+.precioComun{
+  color:rgb(28, 2, 53) ;
+  font-weight: bold;
+  font-size: 1.6rem;
+  font-family: lato;
+}
+.violet{
+  color: rgb(60, 4, 115) ;
+}
+.btnTrash{
+color: rgb(249, 247, 247);
+background-color:rgb(60, 4, 115);
+border: rgb(249, 247, 247);
+}
+.descripcionTaller{
+  color: rgb(28, 28, 28);
+  font-size: 1.6rem;
+ 
+}
+h3{
+  color: rgb(28, 28, 28);
+  font-size: 1.2rem;
+
+}

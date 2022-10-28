@@ -1,0 +1,51 @@
+[{
+      "id": 1,
+      "title": "Finanzas para Emprendedores",
+      "price": 5000,
+      "imagen": "taller.1.jpg"
+   },
+   {
+      "id": 2,
+      "title": "Cómo establecer precios a tus productos",
+      "price": 6000,
+      "imagen": "taller.2.jpg"
+   },
+   {
+      "id": 3,
+      "title": "Logra metas mes a mes para crecer tu negocio",
+      "price": 7800,
+      "imagen": "taller.3.jpg"
+   },
+   {
+      "id": 4,
+      "title": "Aprender a ser empresaria y emprendedora",
+      "price": 5800,
+      "imagen": "taller.4.jpg"
+   },
+   {
+      "id": 5,
+      "title": "Taller de Costos y packaging",
+      "price": 4800,
+      "imagen": "taller.5.jpg"
+   },
+   {
+      "id": 6,
+      "title": "Calcular Precios a tus servicios",
+      "price": 6800,
+      "imagen": "taller.6.jpg"
+   },
+   {
+      "id": 7,
+      "title": "Fotografia basica",
+      "price": 3800,
+      "imagen": "taller.7.jpg"
+
+   },
+   {
+      "id": 8,
+      "title": "Marketing para emprendedores",
+      "price": 10800,
+      "imagen": "taller.8.jpg"
+   }
+
+]
