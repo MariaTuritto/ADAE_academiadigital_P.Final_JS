@@ -1,0 +1,22 @@
+{
+  "name": "proyectofina-js",
+  "version": "1.0.0",
+  "description": "proyectofinaljavascript",
+  "main": "class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaTuritto/ADAE_academiadigital_P.Final_JS.git"
+  },
+  "author": "mariaturitto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaTuritto/ADAE_academiadigital_P.Final_JS/issues"
+  },
+  "homepage": "https://github.com/MariaTuritto/ADAE_academiadigital_P.Final_JS#readme",
+  "dependencies": {
+    "sweetalert2": "^11.6.4"
+  }
+}

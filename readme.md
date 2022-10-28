@@ -10,5 +10,4 @@
 <li>Toastify</li> 
 <li>SweetAlert</li> 
 <li>Node.js</li>
-<li>WOWanimation</li>
 </ul>
